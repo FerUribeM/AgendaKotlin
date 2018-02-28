@@ -16,7 +16,6 @@ data class Contacts(var id: Long = 0, var name: String = "", var phone: String =
         fun setVisibility(linear: LinearLayout, age: Int) {
             linear.visibility = if (age == 0) View.GONE else View.VISIBLE
         }
-
     }
 
 }
