@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">AgendaKotlin</string>
+    <string name="label_phone">Telefono:</string>
+    <string name="label_name">Nombre:</string>
+    <string name="label_new_contact">Nuevo Contacto</string>
+    <string name="label_age">Edad:</string>
+    <string name="label_gener">Genero:</string>
+    <string name="label_save">Guardar</string>
+    <string name="label_delete">Eliminar</string>
+</resources>
