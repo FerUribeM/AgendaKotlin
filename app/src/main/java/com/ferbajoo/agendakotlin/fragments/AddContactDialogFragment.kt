@@ -83,12 +83,11 @@ class AddContactDialogFragment : DialogFragment(), View.OnClickListener {
         val count = Functions().updateContact(id_contact,name,phone, age, gener,context)
 
         val contact = Contacts()
-        contact.id = id_contact!!
+        contact.id = id_contact ?: "0".toLong()
         contact.name = name
         contact.phone = phone
         contact.age = age.toInt()
         contact.gender = gener
-
 
         if (count > 0){
             listener?.contactEditSucess(position, contact)

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="imgItem" type="id">1</item>
+    <item name="txt_title" type="id">2</item>
+    <item name="txt_desc" type="id">3</item>
+    <item name="txt_price" type="id">4</item>
+    <item name="rv_contacts_sim_anko" type="id">5</item>
+</resources>

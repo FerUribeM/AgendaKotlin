@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    android:id="@+id/coordinator_sim"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include
+        android:id="@+id/tb_contact_sim"
+        layout="@layout/toolbar_generic"/>
+
+    <LinearLayout
+        android:id="@+id/linear_parant"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"/>
+
+    <!--<android.support.v7.widget.RecyclerView
+        android:id="@+id/rv_contacts_sim"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="?attr/actionBarSize"/>-->
+
+</android.support.design.widget.CoordinatorLayout>
